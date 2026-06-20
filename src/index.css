@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&family=Sahitya:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Sahitya", serif;
+  --font-english: "Sahitya", serif;
+  --font-hindi: "Sahitya", serif;
+}
+
+/* Custom scrollbar hiding utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
